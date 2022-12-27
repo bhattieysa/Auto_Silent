@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myfyp">
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launchers_icons"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launchers_icons_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFyp"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning"
+        tools:targetApi="31">
+        <activity
+            android:name=".MyEvents"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ScheduleTime"
+            android:exported="false"
+            />
+        <activity
+            android:name=".FirstActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.MyFyp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Signup"
+            android:exported="false"
+            android:theme="@style/Theme.MyFyp" />
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:theme="@style/Theme.MyFyp" />
+        <activity
+            android:name=".ConfirmDialogActivity"
+            android:label="@string/confirm_dialog_activity_title"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog.Alert" />
+
+        <receiver
+            android:name=".GeofenceReceiver"
+            android:enabled="true" />
+
+        <receiver android:name=".Receiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="TODO" />
+
+        <receiver android:name=".EndTimeReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="TODO" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/drawable/ic_baseline_access_alarm_24.xml" value="0.114" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.1025" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/drawable/ic_baseline_add_location_alt_24.xml" value="0.1025" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1025" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.114" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/drawable/ic_location.xml" value="0.1025" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/drawable/login_btn.xml" value="0.1025" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/layout/activity_confirm_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/layout/activity_first.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/layout/activity_main.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/layout/activity_maps.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/layout/activity_maps2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/layout/activity_my_events.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/layout/activity_profile.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/layout/activity_schedule_time.xml" value="0.17" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/layout/activity_signup.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/layout/activity_splash_screen.xml" value="0.16547066272688898" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/layout/content_main.xml" value="0.16547066272688898" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/layout/event_list_item.xml" value="0.16547066272688898" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/layout/events.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/layout/location_list_item.xml" value="0.16547066272688898" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/menu/main_action_mode.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/menu/map_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/MyFyp/app/src/main/res/menu/profile.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
